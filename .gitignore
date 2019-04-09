@@ -13,3 +13,4 @@ Makefile
 cmake-build-debug
 *.cbp
 install_manifest.txt
+ps3eye
