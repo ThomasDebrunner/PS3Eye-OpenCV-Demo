@@ -3,6 +3,8 @@
 A quick minimal demo program that showcases the use of [https://github.com/inspirit/PS3EYEDriver](https://github.com/inspirit/PS3EYEDriver)
 to get frames from a PS3 Eye camera into an OpenCV Mat.
 
+The PS3 Eye is a very cheap and readily available camera that can operate at up to 187fps, which makes it great for some computer vision applications
+
 Should work on macOS, Linux and Windows. Tested on macOS Mojave
 
 **Note** Parts of the code in this repository has been developed by
