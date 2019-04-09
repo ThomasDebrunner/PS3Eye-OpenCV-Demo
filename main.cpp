@@ -11,7 +11,7 @@ int main() {
 
     const auto& devices = ps3eye::PS3EYECam::getDevices(true);
     if (devices.empty()) {
-        std::cerr << "No PS3 device found!" << std::endl;
+        std::cerr << "No PS3 eye device found!" << std::endl;
         return 1;
     }
 
@@ -19,13 +19,12 @@ int main() {
     bool success = cam->init(WIDTH, HEIGHT, FPS);
 
     if (!success) {
-        std::cerr << "Could not initialize PS3 cam" << std::endl;
+        std::cerr << "Could not initialize PS3 eye device" << std::endl;
         return 1;
     }
 
     cam->start();
     cam->setAutogain(true);
-
 
     volatile bool running = true;
     cv::Mat frame = cv::Mat::zeros(cv::Size(WIDTH, HEIGHT), CV_8UC3);
