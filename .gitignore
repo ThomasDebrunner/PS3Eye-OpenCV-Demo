@@ -1,0 +1,15 @@
+.cproject
+.idea
+.project
+*.so
+*.cmake
+*.xml
+*.cmake-build-debug
+*.log
+CMakeFiles
+CMakeCache
+CMakeCache.txt
+Makefile
+cmake-build-debug
+*.cbp
+install_manifest.txt
